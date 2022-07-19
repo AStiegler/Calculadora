@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <link rel="stylesheet" href="geral.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <section>
+
+
+        <div class="resultado">
+            <p id="mostrarRes"></p>
+        </div>
+
+        <div class="operacoes1">
+            <button onclick="Clear()">C</button>
+            <button onclick="Dividir()">/</button>
+            <button onclick="Multiplicar()">*</button>
+            <button onclick="Subtrair()">-</button>
+        </div>
+
+        <div class="geral">
+
+
+            <div class="numeros">
+
+                <div class="primeirafila">
+                    <button onclick="AddNumber7()">7</button>
+                    <button onclick="AddNumber8()">8</button>
+                    <button onclick="AddNumber9()">9</button>
+                </div>
+
+                <div class="segundafila">
+                    <button onclick="AddNumber4()">4</button>
+                    <button onclick="AddNumber5()">5</button>
+                    <button onclick="AddNumber6()">6</button>
+                </div>
+
+                <div class="terceirafila">
+                    <button onclick="AddNumber1()">1</button>
+                    <button onclick="AddNumber2()">2</button>
+                    <button onclick="AddNumber3()">3</button>
+                </div>
+
+                <div class="quartafila">
+                    <button onclick="AddNumber0()">0</button>
+                    <button onclick="AddDot()">.</button>
+                </div>
+
+
+            </div>
+
+
+            <div class="operacoes2">
+
+                <button onclick="Somar()">+</button>
+                <button onclick="Calcular()">=</button>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
